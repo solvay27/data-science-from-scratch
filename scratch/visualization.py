@@ -32,7 +32,7 @@ plt.xticks(range(len(movies)), movies)
 # plt.show()
 
 
-plt.savefig('im/viz_movies.png')
+plt.savefig('viz_movies.png')
 plt.gca().clear()
 
 from collections import Counter
@@ -56,7 +56,7 @@ plt.title("Distribution of Exam 1 Grades")
 # plt.show()
 
 
-plt.savefig('im/viz_grades.png')
+plt.savefig('viz_grades.png')
 plt.gca().clear()
 
 mentions = [500, 505]
@@ -148,7 +148,7 @@ plt.ylabel("test 2 grade")
 # plt.show()
 
 
-plt.savefig('im/viz_scatterplot_axes_not_comparable.png')
+plt.savefig('viz_scatterplot_axes_not_comparable.png')
 plt.gca().clear()
 
 
@@ -159,6 +159,6 @@ plt.title("Axes Are Comparable")
 plt.axis("equal")
 plt.xlabel("test 1 grade")
 plt.ylabel("test 2 grade")
-plt.savefig('im/viz_scatterplot_axes_comparable.png')
+plt.savefig('viz_scatterplot_axes_comparable.png')
 plt.gca().clear()
 
